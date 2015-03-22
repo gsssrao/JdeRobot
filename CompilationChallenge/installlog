@@ -1,0 +1,577 @@
+[ 21%] Built target JderobotInterfaces
+[ 21%] Built target logger
+[ 22%] Built target jderobotutil
+[ 23%] Built target jderobotutilshare
+[ 29%] Built target geometry
+[ 29%] Built target progeo
+[ 30%] Built target progeoshare
+[ 31%] Built target xmlParser
+[ 32%] Built target xmlParsershare
+[ 33%] Built target colorspaces
+[ 33%] Built target colorspacesmm
+[ 33%] Built target colorspacesmmshare
+[ 34%] Built target colorspacesshare
+[ 34%] Built target cvfast
+[ 36%] Built target cvblob
+[ 37%] Built target imgAnalyze
+[ 38%] Built target fuzzylib
+[ 38%] Built target fuzzyshare
+[ 39%] Built target pioneer
+[ 39%] Built target pioneershare
+[ 39%] Built target ns
+[ 40%] Built target parallelIce
+[ 41%] Built target parallelIceshare
+[ 42%] Built target depthLib
+[ 43%] Built target depthLibshare
+[ 50%] Built target visualHFSM
+[ 52%] Built target basic_component_qt
+[ 53%] Built target giraffeClient
+[ 53%] Built target namingService
+[ 68%] Built target introrob_qt
+[ 68%] Built target openni1Server
+[ 70%] Built target rgbdCalibrator
+[ 71%] Built target cameraview
+[ 72%] Built target openniServer
+[ 72%] Built target pclRGBDServer
+[ 74%] Built target recorder
+[ 75%] Built target replayController
+[ 77%] Built target basic_component
+[ 77%] Built target cameraserver
+[ 78%] Built target followball
+[ 79%] Built target opencvdemo
+[ 83%] Built target giraffeServer
+[ 83%] Built target replayer
+[ 84%] Built target rgbdManualCalibrator
+[ 85%] Built target rgbdViewer
+[ 85%] Built target cameraview_icestorm
+[ 86%] Built target basic_server
+[ 88%] Built target naooperator
+[ 88%] Built target ballencoder
+[ 88%] Built target camera_nao
+[ 89%] Built target poseleftankle
+[ 89%] Built target poseleftelbow
+[ 89%] Built target poselefthip
+[ 90%] Built target poseleftknee
+[ 90%] Built target poseleftshoulder
+[ 90%] Built target poseneck
+[ 90%] Built target poseneckspeed
+[ 91%] Built target poserightankle
+[ 91%] Built target poserightelbow
+[ 91%] Built target poserighthip
+[ 92%] Built target poserightknee
+[ 92%] Built target poserightshoulder
+[ 93%] Built target camera_dump
+[ 93%] Built target encoders
+[ 93%] Built target laser
+[ 94%] Built target motors
+[ 94%] Built target pose3dencoders
+[ 95%] Built target colorTuner
+[ 97%] Built target introrob
+[ 98%] Built target remoteConfiguration
+[100%] Built target teleoperatorPC
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/lib/jderobot/libJderobotInterfaces.so
+-- Installing: /usr/lib/python2.7/jderobot/__init__.py
+-- Up-to-date: /usr/lib/python2.7/jderobot/__init__.py
+-- Installing: /usr/lib/python2.7/jderobot/bodymovements_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/pose3dmotors_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/pose3d_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/jcm_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/varcolor_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/exceptions_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/motors_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/naomotions_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/datetime_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/common_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/wiimote_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/jointmotor_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/remoteConfig_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/encoders_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/camera_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/ptencoders_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/genericData_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/laser_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/sonars_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/containers_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/image_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/naofollowball_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/pointcloud_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/body_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/remoteCloud_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/replayControl_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/bodyencoders_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/recorder_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/kinectleds_ice.py
+-- Up-to-date: /usr/lib/python2.7/jderobot/__init__.py
+-- Installing: /usr/lib/python2.7/jderobot/ptmotors_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/namingService_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/pose3dencoders_ice.py
+-- Installing: /usr/lib/python2.7/jderobot/bodymotors_ice.py
+-- Installing: /usr/local/include/jderobot/log/Logger.h
+-- Installing: /usr/local/include/jderobot/jderobotutil/jderobotutil.h
+-- Installing: /usr/local/include/jderobot/jderobotutil/observer.h
+-- Installing: /usr/local/include/jderobot/jderobotutil/paramdict.h
+-- Installing: /usr/local/include/jderobot/jderobotutil/time.h
+-- Installing: /usr/local/include/jderobot/jderobotutil/uncopyable.h
+-- Installing: /usr/local/include/jderobot/geometry/Dense.h
+-- Installing: /usr/local/include/jderobot/geometry/progeo/Progeo.h
+-- Installing: /usr/local/include/jderobot/geometry/math/Point2D.h
+-- Installing: /usr/local/include/jderobot/geometry/math/Segment3D.h
+-- Installing: /usr/local/include/jderobot/geometry/math/Segment2D.h
+-- Installing: /usr/local/include/jderobot/geometry/math/plano.h
+-- Installing: /usr/local/include/jderobot/geometry/math/geoconst.h
+-- Installing: /usr/local/include/jderobot/geometry/math/Point3D.h
+-- Installing: /usr/local/include/jderobot/geometry/math/segmento.h
+-- Installing: /usr/local/include/jderobot/geometry/math/Plane3D.h
+-- Installing: /usr/local/include/jderobot/geometry/math/recta.h
+-- Installing: /usr/local/include/jderobot/geometry/math/Line3D.h
+-- Installing: /usr/local/include/jderobot/geometry/math/matriz3x3.h
+-- Installing: /usr/local/include/jderobot/geometry/math/Line2D.h
+-- Installing: /usr/local/include/jderobot/geometry/math/utils.h
+-- Installing: /usr/local/include/jderobot/geometry/math/matriz4x4.h
+-- Installing: /usr/local/include/jderobot/geometry/collada/malla.h
+-- Installing: /usr/local/include/jderobot/geometry/collada/submalla.h
+-- Installing: /usr/local/include/jderobot/geometry/collada/color.h
+-- Installing: /usr/local/include/jderobot/geometry/collada/colladaparser.h
+-- Installing: /usr/local/include/jderobot/geometry/collada/material.h
+-- Installing: /usr/local/include/jderobot/progeo/progeo.h
+-- Installing: /usr/local/include/jderobot/xmlParser/xmlReaderParser.h
+-- Installing: /usr/local/include/jderobot/xmlParser/xmlWriterParser.h
+-- Installing: /usr/local/include/jderobot/visionlib/visionlib.h
+-- Installing: /usr/local/include/jderobot/visionlib/colorspaces/imagecv.h
+-- Installing: /usr/local/include/jderobot/visionlib/colorspaces/colorspaces.h
+-- Installing: /usr/local/include/jderobot/visionlib/colorspaces/uncopyable.h
+-- Installing: /usr/local/include/jderobot/visionlib/colorspaces/colorspacesmm.h
+-- Installing: /usr/local/include/jderobot/visionlib/cvFast/cvfast.h
+-- Installing: /usr/local/include/jderobot/visionlib/cvBlob/cvblob.h
+-- Installing: /usr/local/include/jderobot/visionlib/imgAnalyze/structs.h
+-- Installing: /usr/local/include/jderobot/visionlib/imgAnalyze/linesDetection.h
+-- Installing: /usr/local/include/jderobot/visionlib/imgAnalyze/image.h
+-- Installing: /usr/local/include/jderobot/visionlib/imgAnalyze/geometry.h
+-- Installing: /usr/local/include/jderobot/fuzzylib/fuzzylib.h
+-- Installing: /usr/local/include/jderobot/pioneer/pioneer.h
+-- Installing: /usr/local/include/jderobot/ns/ns.h
+-- Installing: /usr/local/include/jderobot/parallelIce/laserClient.h
+-- Installing: /usr/local/include/jderobot/parallelIce/pointcloudClient.h
+-- Installing: /usr/local/include/jderobot/parallelIce/cameraClient.h
+-- Installing: /usr/local/include/jderobot/depthLib/DepthFilter.h
+-- Installing: /usr/local/include/jderobot/depthLib/DepthSampler.h
+-- Up-to-date: /usr/local/include/jderobot/log/Logger.h
+-- Up-to-date: /usr/local/include/jderobot/jderobotutil/jderobotutil.h
+-- Up-to-date: /usr/local/include/jderobot/jderobotutil/observer.h
+-- Up-to-date: /usr/local/include/jderobot/jderobotutil/paramdict.h
+-- Up-to-date: /usr/local/include/jderobot/jderobotutil/time.h
+-- Up-to-date: /usr/local/include/jderobot/jderobotutil/uncopyable.h
+-- Up-to-date: /usr/local/include/jderobot/geometry/Dense.h
+-- Installing: /usr/local/include/jderobot/progeo/Progeo.h
+-- Installing: /usr/local/include/jderobot/math/Point2D.h
+-- Installing: /usr/local/include/jderobot/math/Segment3D.h
+-- Installing: /usr/local/include/jderobot/math/Segment2D.h
+-- Installing: /usr/local/include/jderobot/math/plano.h
+-- Installing: /usr/local/include/jderobot/math/geoconst.h
+-- Installing: /usr/local/include/jderobot/math/Point3D.h
+-- Installing: /usr/local/include/jderobot/math/segmento.h
+-- Installing: /usr/local/include/jderobot/math/Plane3D.h
+-- Installing: /usr/local/include/jderobot/math/recta.h
+-- Installing: /usr/local/include/jderobot/math/Line3D.h
+-- Installing: /usr/local/include/jderobot/math/matriz3x3.h
+-- Installing: /usr/local/include/jderobot/math/Line2D.h
+-- Installing: /usr/local/include/jderobot/math/utils.h
+-- Installing: /usr/local/include/jderobot/math/matriz4x4.h
+-- Installing: /usr/local/include/jderobot/collada/malla.h
+-- Installing: /usr/local/include/jderobot/collada/submalla.h
+-- Installing: /usr/local/include/jderobot/collada/color.h
+-- Installing: /usr/local/include/jderobot/collada/colladaparser.h
+-- Installing: /usr/local/include/jderobot/collada/material.h
+-- Up-to-date: /usr/local/include/jderobot/progeo/progeo.h
+-- Up-to-date: /usr/local/include/jderobot/xmlParser/xmlReaderParser.h
+-- Up-to-date: /usr/local/include/jderobot/xmlParser/xmlWriterParser.h
+-- Up-to-date: /usr/local/include/jderobot/visionlib/visionlib.h
+-- Installing: /usr/local/include/jderobot/colorspaces/imagecv.h
+-- Installing: /usr/local/include/jderobot/colorspaces/colorspaces.h
+-- Installing: /usr/local/include/jderobot/colorspaces/uncopyable.h
+-- Installing: /usr/local/include/jderobot/colorspaces/colorspacesmm.h
+-- Installing: /usr/local/include/jderobot/cvFast/cvfast.h
+-- Installing: /usr/local/include/jderobot/cvBlob/cvblob.h
+-- Installing: /usr/local/include/jderobot/imgAnalyze/structs.h
+-- Installing: /usr/local/include/jderobot/imgAnalyze/linesDetection.h
+-- Installing: /usr/local/include/jderobot/imgAnalyze/image.h
+-- Installing: /usr/local/include/jderobot/imgAnalyze/geometry.h
+-- Up-to-date: /usr/local/include/jderobot/fuzzylib/fuzzylib.h
+-- Up-to-date: /usr/local/include/jderobot/pioneer/pioneer.h
+-- Up-to-date: /usr/local/include/jderobot/ns/ns.h
+-- Up-to-date: /usr/local/include/jderobot/parallelIce/laserClient.h
+-- Up-to-date: /usr/local/include/jderobot/parallelIce/pointcloudClient.h
+-- Up-to-date: /usr/local/include/jderobot/parallelIce/cameraClient.h
+-- Up-to-date: /usr/local/include/jderobot/depthLib/DepthFilter.h
+-- Up-to-date: /usr/local/include/jderobot/depthLib/DepthSampler.h
+-- Installing: /usr/local/bin/visualHFSM
+-- Installing: /usr/local/bin/basic_component_qt
+-- Installing: /usr/local/bin/giraffeClient
+-- Installing: /usr/local/bin/namingService
+-- Installing: /usr/local/bin/introrob_qt
+-- Installing: /usr/local/bin/openni1Server
+-- Installing: /usr/local/bin/rgbdCalibrator
+-- Installing: /usr/local/bin/cameraview
+-- Installing: /usr/local/bin/openniServer
+-- Installing: /usr/local/bin/pclRGBDServer
+-- Installing: /usr/local/bin/recorder
+-- Installing: /usr/local/bin/replayController
+-- Installing: /usr/local/bin/icestorm
+-- Installing: /usr/local/bin/basic_component
+-- Installing: /usr/local/bin/cameraserver
+-- Installing: /usr/local/bin/opencvdemo
+-- Installing: /usr/local/bin/giraffeServer
+-- Installing: /usr/local/bin/replayer
+-- Installing: /usr/local/bin/rgbdManualCalibrator
+-- Installing: /usr/local/bin/rgbdViewer
+-- Installing: /usr/local/bin/cameraview_icestorm
+-- Installing: /usr/local/bin/basic_server
+-- Installing: /usr/local/bin/colorTuner
+-- Installing: /usr/local/bin/introrob
+-- Installing: /usr/local/bin/remoteConfiguration
+-- Installing: /usr/local/include/jderobot/slice/replayControl.ice
+-- Installing: /usr/local/include/jderobot/slice/wiimote.ice
+-- Installing: /usr/local/include/jderobot/slice/remoteConfig.ice
+-- Installing: /usr/local/include/jderobot/slice/body.ice
+-- Installing: /usr/local/include/jderobot/slice/motors.ice
+-- Installing: /usr/local/include/jderobot/slice/recorder.ice
+-- Installing: /usr/local/include/jderobot/slice/exceptions.ice
+-- Installing: /usr/local/include/jderobot/slice/varcolor.ice
+-- Installing: /usr/local/include/jderobot/slice/genericData.ice
+-- Installing: /usr/local/include/jderobot/slice/kinectleds.ice
+-- Installing: /usr/local/include/jderobot/slice/common.ice
+-- Installing: /usr/local/include/jderobot/slice/ptmotors.ice
+-- Installing: /usr/local/include/jderobot/slice/bodyencoders.ice
+-- Installing: /usr/local/include/jderobot/slice/remoteCloud.ice
+-- Installing: /usr/local/include/jderobot/slice/camera.ice
+-- Installing: /usr/local/include/jderobot/slice/naomotions.ice
+-- Installing: /usr/local/include/jderobot/slice/pose3dmotors.ice
+-- Installing: /usr/local/include/jderobot/slice/jointmotor.ice
+-- Installing: /usr/local/include/jderobot/slice/laser.ice
+-- Installing: /usr/local/include/jderobot/slice/sonars.ice
+-- Installing: /usr/local/include/jderobot/slice/namingService.ice
+-- Installing: /usr/local/include/jderobot/slice/pose3d.ice
+-- Installing: /usr/local/include/jderobot/slice/ptencoders.ice
+-- Installing: /usr/local/include/jderobot/slice/pose3dencoders.ice
+-- Installing: /usr/local/include/jderobot/slice/encoders.ice
+-- Installing: /usr/local/include/jderobot/slice/datetime.ice
+-- Installing: /usr/local/include/jderobot/slice/jcm.ice
+-- Installing: /usr/local/include/jderobot/slice/naofollowball.ice
+-- Installing: /usr/local/include/jderobot/slice/pointcloud.ice
+-- Installing: /usr/local/include/jderobot/slice/bodymotors.ice
+-- Installing: /usr/local/include/jderobot/slice/bodymovements.ice
+-- Installing: /usr/local/include/jderobot/slice/image.ice
+-- Installing: /usr/local/include/jderobot/slice/containers.ice
+-- Installing: /usr/local/share/jderobot/conf/basic_component_qt.cfg
+-- Installing: /usr/local/share/jderobot/conf/giraffeClient.cfg
+-- Installing: /usr/local/share/jderobot/conf/namingService.cfg
+-- Installing: /usr/local/share/jderobot/conf/introrob_qt.cfg
+-- Installing: /usr/local/share/jderobot/conf/openni1Server.cfg
+-- Installing: /usr/local/share/jderobot/conf/rgbdCalibrator.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer_left_cam.cfg
+-- Installing: /usr/local/share/jderobot/conf/cameraview.cfg
+-- Installing: /usr/local/share/jderobot/conf/openniServer.cfg
+-- Installing: /usr/local/share/jderobot/conf/1openniServer.cfg
+-- Installing: /usr/local/share/jderobot/conf/lambecom.cfg
+-- Installing: /usr/local/share/jderobot/conf/2openniServer.cfg
+-- Installing: /usr/local/share/jderobot/conf/kinectServer.cfg
+-- Installing: /usr/local/share/jderobot/conf/recorder.cfg
+-- Installing: /usr/local/share/jderobot/conf/replayController.cfg
+-- Installing: /usr/local/share/jderobot/conf/icestorm.cfg
+-- Installing: /usr/local/share/jderobot/conf/icebox.cfg
+-- Installing: /usr/local/share/jderobot/conf/basic_component.cfg
+-- Installing: /usr/local/share/jderobot/conf/cameraserver.cfg
+-- Installing: /usr/local/share/jderobot/conf/followball.cfg
+-- Installing: /usr/local/share/jderobot/conf/opencvdemo.cfg
+-- Installing: /usr/local/share/jderobot/conf/giraffeServer.cfg
+-- Installing: /usr/local/share/jderobot/conf/replayer.cfg
+-- Installing: /usr/local/share/jderobot/conf/cam1-mia.cfg
+-- Installing: /usr/local/share/jderobot/conf/rgbdManualCalibrator.cfg
+-- Installing: /usr/local/share/jderobot/conf/rgbdViewer.cfg
+-- Installing: /usr/local/share/jderobot/conf/lambecom.cfg
+-- Installing: /usr/local/share/jderobot/conf/camera-0.cfg
+-- Installing: /usr/local/share/jderobot/conf/config.cfg
+-- Installing: /usr/local/share/jderobot/conf/cameraview_icestorm.cfg
+-- Installing: /usr/local/share/jderobot/conf/basic_server.cfg
+-- Installing: /usr/local/share/jderobot/conf/naooperator.cfg
+-- Installing: /usr/local/share/jderobot/conf/poseleftknee.cfg
+-- Installing: /usr/local/share/jderobot/conf/poserightelbow.cfg
+-- Installing: /usr/local/share/jderobot/conf/poseleftankle.cfg
+-- Installing: /usr/local/share/jderobot/conf/poserightankle.cfg
+-- Installing: /usr/local/share/jderobot/conf/ballgreen.cfg
+-- Installing: /usr/local/share/jderobot/conf/poseleftelbow.cfg
+-- Installing: /usr/local/share/jderobot/conf/poserightshoulder.cfg
+-- Installing: /usr/local/share/jderobot/conf/poserighthip.cfg
+-- Installing: /usr/local/share/jderobot/conf/poseneckspeed.cfg
+-- Installing: /usr/local/share/jderobot/conf/poserightknee.cfg
+-- Installing: /usr/local/share/jderobot/conf/cam_sensor_bottom.cfg
+-- Installing: /usr/local/share/jderobot/conf/poseleftshoulder.cfg
+-- Installing: /usr/local/share/jderobot/conf/ballred.cfg
+-- Installing: /usr/local/share/jderobot/conf/poseneck.cfg
+-- Installing: /usr/local/share/jderobot/conf/poselefthip.cfg
+-- Installing: /usr/local/share/jderobot/conf/cam_sensor_top.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx2_laser.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx_laser.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dxEncoders.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx_cam_sensor_right.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx_pose3dencoders.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dxMotors.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx_cam_sensor_left.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx2Encoders.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx2Motors.cfg
+-- Installing: /usr/local/share/jderobot/conf/cam_sensor_right.cfg
+-- Installing: /usr/local/share/jderobot/conf/pioneer2dx2_pose3dencoders.cfg
+-- Installing: /usr/local/share/jderobot/conf/cam_sensor_left.cfg
+-- Installing: /usr/local/share/jderobot/conf/kinect.cfg
+-- Installing: /usr/local/share/jderobot/conf/profundidad.cfg
+-- Installing: /usr/local/share/jderobot/conf/colorTuner.cfg
+-- Installing: /usr/local/share/jderobot/conf/introrob.cfg
+-- Installing: /usr/local/share/jderobot/conf/robot2introrob.cfg
+-- Installing: /usr/local/share/jderobot/conf/introrobOld.cfg
+-- Installing: /usr/local/share/jderobot/conf/robot1introrob.cfg
+-- Installing: /usr/local/share/jderobot/conf/remoteConfiguration.cfg
+-- Installing: /usr/local/share/jderobot/conf/teleoperatorPC.cfg
+-- Installing: /usr/local/share/jderobot/glade/configfile.glade
+-- Installing: /usr/local/share/jderobot/glade/timing.glade
+-- Installing: /usr/local/share/jderobot/glade/main_gui.glade
+-- Installing: /usr/local/share/jderobot/glade/open.glade
+-- Installing: /usr/local/share/jderobot/glade/save.glade
+-- Installing: /usr/local/share/jderobot/glade/additional_libraries.glade
+-- Installing: /usr/local/share/jderobot/glade/funvar.glade
+-- Installing: /usr/local/share/jderobot/glade/import.glade
+-- Installing: /usr/local/share/jderobot/glade/code.glade
+-- Installing: /usr/local/share/jderobot/glade/edittransition.glade
+-- Installing: /usr/local/share/jderobot/glade/edittransitioncode.glade
+-- Installing: /usr/local/share/jderobot/glade/name.glade
+-- Installing: /usr/local/share/jderobot/glade/giraffeClient.glade
+-- Installing: /usr/local/share/jderobot/glade/rgbdCalibrator.glade
+-- Installing: /usr/local/share/jderobot/glade/cameraview.glade
+-- Installing: /usr/local/share/jderobot/glade/recordergui.glade
+-- Installing: /usr/local/share/jderobot/glade/replayControllerGui.glade
+-- Installing: /usr/local/share/jderobot/glade/basic_component.glade
+-- Installing: /usr/local/share/jderobot/glade/cameraview.glade
+-- Installing: /usr/local/share/jderobot/glade/opencvdemo.glade
+-- Installing: /usr/local/share/jderobot/glade/replayergui.glade
+-- Installing: /usr/local/share/jderobot/glade/rgbdManualCalibrator.glade
+-- Installing: /usr/local/share/jderobot/glade/rgbdViewergui.glade
+-- Installing: /usr/local/share/jderobot/glade/cameraview.glade
+-- Installing: /usr/local/share/jderobot/glade/main_gui.glade
+-- Installing: /usr/local/share/jderobot/glade/introrob.glade
+-- Installing: /usr/local/share/jderobot/glade/TeleoperatorPC.glade
+-- Installing: /usr/local/share/jderobot/gazebo/gazebo-setup.sh
+-- Installing: /usr/local/share/jderobot/gazebo//models
+-- Installing: /usr/local/share/jderobot/gazebo//models/ground_plane_sincolor
+-- Installing: /usr/local/share/jderobot/gazebo//models/ground_plane_sincolor/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/ground_plane_sincolor/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/ground_plane_sincolor/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/ground_plane_sincolor/manifest.xml
+-- Installing: /usr/local/share/jderobot/gazebo//models/sun
+-- Installing: /usr/local/share/jderobot/gazebo//models/sun/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/sun/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/sun/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/sun/manifest.xml
+-- Installing: /usr/local/share/jderobot/gazebo//models/jarama
+-- Installing: /usr/local/share/jderobot/gazebo//models/jarama/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/jarama/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/jarama/images
+-- Installing: /usr/local/share/jderobot/gazebo//models/jarama/images/jaramaCircuitoRetocado.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/meshes/hokuyo.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/meshes/CMakeLists.txt
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/meshes/hokuyo_convex.stl
+-- Installing: /usr/local/share/jderobot/gazebo//models/hokuyo/manifest.xml
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/characters2.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture14.png.003.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture9.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture1.jpg
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture3.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture5.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture11.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/characters.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture0.jpg
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture15.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture6.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture14.png.001.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture0.png.005.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture13.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture0.png.001.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture4.png.001.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture7.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture2.png.002.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture2.png.001.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture14.png.002.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture14.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture12.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture1.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture0.png.003.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture4.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture0.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture12.png.001.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture0.png.004.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture2.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture8.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture10.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/models/texture0.png.002.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/charactersMario/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales/meshes/cereales.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales/meshes/texture1.jpg
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales/meshes/texture0.jpg
+-- Installing: /usr/local/share/jderobot/gazebo//models/cereales/meshes/cereales2.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/meshes/wheel.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/meshes/chassis.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/manifest.xml
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures/create_body.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures/plate_1_logo.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures/plate_0_logo.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dx/materials/textures/plate_2_logo.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/mapaSimple
+-- Installing: /usr/local/share/jderobot/gazebo//models/mapaSimple/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/mapaSimple/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/mapaSimple/meshes/mapa.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/mapaSimple/meshes/pared.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/mapaSimple/manifest.xml
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck/meshes/duck2.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck/meshes/duck.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/duck/meshes/duck.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks/models
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks/models/blocks2.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks/models/blocks.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks/images
+-- Installing: /usr/local/share/jderobot/gazebo//models/blocks/images/Material2noCulling.jpg
+-- Installing: /usr/local/share/jderobot/gazebo//models/simpleWorld
+-- Installing: /usr/local/share/jderobot/gazebo//models/simpleWorld/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/simpleWorld/model-1.3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/paredesMontmelo
+-- Installing: /usr/local/share/jderobot/gazebo//models/paredesMontmelo/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/paredesMontmelo/paredesMontmelo.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/meshes/sonyvid30
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/meshes/sonyvid30/sonyvid30_mid.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/meshes/sonyvid30/sonyvid30_top.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/meshes/sonyvid30/sonyvid30_bottom.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/meshes/wheel.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/meshes/chassis.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures/68-04552-2000-RA_Turtlebot_M-F_Standoff_color.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures/create_body.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures/68-02421-8000-RA_Turtlebot_F-F_Standoff_color.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures/plate_1_logo.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures/68-04552-1000-RA_Turtlebot_M-F_Standoff_color.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures/plate_0_logo.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/pioneer2dxJde/materials/textures/plate_2_logo.tga
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/bicepsizquierdo.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/antebrazoizquierdo.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/piederecho.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/cuerpo.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/espinilladerecha.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/musloizquierdo.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/musloderecho.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/espinillaizquierda.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/cabeza.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/bicepsderecho.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/antebrazoderecho.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/nao/meshes/pieizquierdo.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo/materials
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo/materials/scripts
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo/materials/scripts/asphalt.material
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo/materials/textures
+-- Installing: /usr/local/share/jderobot/gazebo//models/circuitoMontmelo/materials/textures/tarmac.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/departamental
+-- Installing: /usr/local/share/jderobot/gazebo//models/departamental/model.config
+-- Installing: /usr/local/share/jderobot/gazebo//models/departamental/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/departamental/images
+-- Installing: /usr/local/share/jderobot/gazebo//models/departamental/images/departamental2.png
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/model.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/model-1_3.sdf
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/meshes
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/meshes/kinect.dae
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/manifest.xml
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/materials
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/materials/textures
+-- Installing: /usr/local/share/jderobot/gazebo//models/kinect/materials/textures/kinect.tga
+-- Installing: /usr/local/share/jderobot/gazebo//worlds
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/reconstruccion3D.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/pioneer2dxJde-2.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/kinect.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/naoworld.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/montmelo-pioneer.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/jaramaSigueLineas.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/pioneer2dxJde.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/montmelo-kobuki.world
+-- Installing: /usr/local/share/jderobot/gazebo//worlds/departamental2.world
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/kinect/kinect.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/kinect/profundidad.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poseleftknee.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poserightelbow.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poseleftankle.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poserightankle.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/ballgreen.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poseleftelbow.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poserightshoulder.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poserighthip.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poseneckspeed.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poserightknee.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/cam_sensor_bottom.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poseleftshoulder.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/ballred.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poseneck.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/poselefthip.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/nao/cam_sensor_top.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx2_laser.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx_laser.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dxEncoders.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx_cam_sensor_right.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx_pose3dencoders.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dxMotors.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx_cam_sensor_left.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx2Encoders.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx2Motors.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/cam_sensor_right.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/pioneer2dx2_pose3dencoders.cfg
+-- Installing: /usr/local/share/jderobot/gazebo/plugins/pioneer/cam_sensor_left.cfg
+-- Installing: /usr/local/share/jderobot/conf/myimage.png
+-- Installing: /usr/local/share/jderobot/conf/cameras/calibA.xml
+-- Installing: /usr/local/share/jderobot/conf/cameras/calibB.xml

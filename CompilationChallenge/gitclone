@@ -1,0 +1,8 @@
+sairao1996@ubuntu:~/Desktop$ git clone https://github.com/RoboticsURJC/JdeRobot
+Cloning into 'JdeRobot'...
+remote: Counting objects: 11554, done.
+remote: Compressing objects: 100% (28/28), done.
+remote: Total 11554 (delta 6), reused 0 (delta 0), pack-reused 11524
+Receiving objects: 100% (11554/11554), 50.05 MiB | 28 KiB/s, done.
+Resolving deltas: 100% (7478/7478), done.
+
