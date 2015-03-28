@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidWear.JdeRobot</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="page1_title">JDE Robot</string>
+    <string-array name="spinner_page1_array">
+        <item>Camera1</item>
+        <item>Camera2</item>
+    </string-array>
+</resources>
