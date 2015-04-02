@@ -22,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:gravity="center"
-        android:text="Start Counting"/>
+        android:text="Start Counting"
+        android:onClick="CountingClick"/>
 
 </LinearLayout>

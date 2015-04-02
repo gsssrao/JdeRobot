@@ -1,10 +1,11 @@
 package com.example.android.androidwearjderobot;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.wearable.view.WatchViewStub;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -20,16 +21,16 @@ public class obstaclescreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_obstaclescreen);
 
-        final WatchViewStub stub = (WatchViewStub) findViewById(R.id.watch_view_stub);
-        stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
-            @Override
-            public void onLayoutInflated(WatchViewStub stub) {
-                mTextView = (TextView) stub.findViewById(R.id.text);
-            }
-        });
+//        final WatchViewStub stub = (WatchViewStub) findViewById(R.id.watch_view_stub);
+//        stub.setOnLayoutInflatedListener(new WatchViewStub.OnLayoutInflatedListener() {
+//            @Override
+//            public void onLayoutInflated(WatchViewStub stub) {
+//                mTextView = (TextView) stub.findViewById(R.id.text);
+//            }
+//        });
 
         // Fills the spinner with the unit options
-        addItemsToUnitTypeSpinner();
+        //addItemsToUnitTypeSpinner();
     }
 
 
@@ -63,10 +64,15 @@ public class obstaclescreen extends Activity {
         ArrayAdapter<CharSequence> unitTypeSpinnerAdapter = ArrayAdapter.createFromResource(this,
                 R.array.spinner_obstacles, android.R.layout.simple_spinner_item);
         // Specify the layout to use when the list of choices appears
-        unitTypeSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //unitTypeSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         // Apply the adapter to the spinner
         //unitTypeSpinner.setAdapter(unitTypeSpinnerAdapter);
+    }
+
+    public void CountingClick(View view) {
+        Intent getNameScreenIntent = new Intent(obstaclescreen.this, countingview.class);
+        startActivity(getNameScreenIntent);
     }
 
 

@@ -1,17 +1,27 @@
 package com.example.android.androidwearjderobot;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    private static final String TAG = "CallCamera";
+    private static final int CAPTURE_IMAGE_ACTIVITY_REQ = 0;
+
+    Uri fileUri = null;
+    ImageView photoImage = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        photoImage = (ImageView) findViewById(R.id.photo_image);
+
     }
 
 
