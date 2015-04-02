@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity" tools:deviceIds="wear_square"
-    android:orientation="vertical">
+    android:layout_height="match_parent" android:orientation="vertical" android:background="@drawable/pioneer_rect"
+    tools:context=".MainActivity" tools:deviceIds="wear_square" >
 
-    <TextView android:id="@+id/text" android:layout_width="wrap_content"
-        android:layout_height="0dp" android:text="@string/hello_square"
-        android:layout_weight="1" />
+    <TextView android:id="@+id/text" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="@string/hello_square"
+        android:gravity="center" android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+    <Spinner
+   	        android:layout_width="fill_parent"
+  	        android:layout_height="wrap_content"
+  	        android:id="@+id/unit_type_spinner"
+   	        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:id="@+id/ImageButton1Rect"
+            android:onClick="CameraClick"/>
+        <ImageButton
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+
+            android:id="@+id/ImageButton2Rect"
+            android:onClick="SettingsClick"/>
+        </LinearLayout>
 </LinearLayout>

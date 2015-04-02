@@ -3,8 +3,6 @@
     package="com.example.android.androidwearjderobot" >
 
     <uses-feature android:name="android.hardware.type.watch" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
 
     <application
         android:allowBackup="true"
@@ -19,6 +17,22 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".cameraview"
+            android:label="AndroidWear.cameraview"
+            android:theme="@android:style/Theme.DeviceDefault" />
+        <activity
+            android:name=".obstaclescreen"
+            android:label="@string/title_activity_obstaclescreen" >
+        </activity>
+        <activity
+            android:name=".countingview"
+            android:label="@string/title_activity_countingview" >
+        </activity>
+        <activity
+            android:name=".resultactivity"
+            android:label="@string/title_activity_resultactivity" >
         </activity>
     </application>
 

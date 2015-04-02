@@ -12,18 +12,6 @@ buildscript {
     }
 }
 
-buildscript {
-    repositories {
-        maven {
-            url 'http://repo.zeroc.com/nexus/content/repositories/releases'
-        }
-    }
-    dependencies {
-        classpath group: 'com.zeroc.gradle.plugins', name: 'ice-gradle-plugin', version: '3.6b'
-    }
-}
-apply plugin: 'slice'
-
 allprojects {
     repositories {
         jcenter()
